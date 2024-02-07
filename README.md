@@ -13,3 +13,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - Website - [Omar Ahmed](https://github.com/yazizomar)
 - Frontend Mentor - [@yazizomar](https://www.frontendmentor.io/profile/yazizomar)
 - Twitter - [@omar_yaziz](https://www.twitter.com/omar_yaziz)
+
+### Result
+- https://yazizomar.github.io/interactive-rating-component-main/
