@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(216, 12%, 54%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.container {
+    width: 100%;
+    max-width: 375px;
+    padding: 30px ;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.star-rating {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsla(216, 12%, 54%,0.2);
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.card-content h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+.card-content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px auto 25px auto;
+    line-height: 1.5;
+}
+
+
+.rating-buttons {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 25px;
+}
+
+.rating-button {
+    display: flex;
+    background-color: hsla(216, 12%, 54%,0.2);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.rating-button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.rating-button:focus,
+.rating-button.active {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+.submit-button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.submit-button:hover {
+    opacity: 0.9;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
